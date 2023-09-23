@@ -3,6 +3,9 @@
 / {
 	interrupt-parent = <&intc>;	
 
+	qcom,msm-id = <353 0x0>;
+	qcom,pmic-id = <0x010016 0x25 0x0 0x0>;
+
 	#address-cells = <2>;
 	#size-cells = <2>;
 
