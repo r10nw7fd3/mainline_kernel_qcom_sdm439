@@ -12,12 +12,12 @@
 	aliases {};
 
 	chosen {
-		#address-cells = <2>;
-		#size-cells = <2>;
+		#address-cells = <1>;
+		#size-cells = <1>;
 
 		framebuffer0: framebuffer@9d400000 {
 			compatible = "simple-framebuffer";
-			reg = <0 0x9d400000 0 (720 * 1440 * 4)>;
+			reg = <0x9d400000 (720 * 1440 * 4)>;
 			width = <720>;
 			height = <1440>;
 			stride = <(720 * 4)>;
